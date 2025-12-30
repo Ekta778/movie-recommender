@@ -1,0 +1,27 @@
+{
+  "name": "movie-recommender-backend",
+  "version": "1.0.0",
+  "description": "Backend for Movie Recommendation App using Fastify, OpenAI, and SQLite",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "fastify",
+    "openai",
+    "sqlite",
+    "movie-recommendation",
+    "api"
+  ],
+  "author": "Ekta Prakash",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fastify": "^4.27.0",
+    "fastify-cors": "^8.5.0",
+    "openai": "^4.38.0",
+    "sqlite3": "^5.1.7"
+  }
+}
